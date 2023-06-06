@@ -1,0 +1,25 @@
+<html>
+        <head>
+                <title>
+                    <%= locals.title %>      //Title variable
+                </title>
+        </head>
+
+        <body>
+            <h1 style="color: blue">Happy happy happy</h1> 
+
+            <ul>
+                <% for (let i = 1 ; i <= 10 ; i++) { %>
+                    <li>
+                        <%= i %>
+                    </li>
+                    <% } %>
+            </ul>
+
+            <% if(true) { %>
+                <h1> Lahoti mc </h1> 
+                <% } else { %>
+                    <h1> ranjan mc </h1>
+                    <% } %>
+        </body>
+</html>
